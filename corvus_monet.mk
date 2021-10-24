@@ -33,6 +33,9 @@ TARGET_USES_BLUR := true
 # Google Recorder
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_NAME := corvus_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
