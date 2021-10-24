@@ -27,6 +27,9 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Blur
+TARGET_USES_BLUR := true
+
 PRODUCT_NAME := corvus_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
