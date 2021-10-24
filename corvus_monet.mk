@@ -14,6 +14,12 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+# FOD Animations
+TARGET_HAS_FOD := true
+TARGET_WANTS_FOD_ANIMATIONS := true
+TARGET_FOD_ANIMATIONS := true
+EXTRA_FOD_ANIMATIONS := true
+
 PRODUCT_NAME := corvus_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
