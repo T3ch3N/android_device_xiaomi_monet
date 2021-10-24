@@ -501,4 +501,8 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+    <bool name="config_targetUsesInKernelDimming">true</bool>
 </resources>
