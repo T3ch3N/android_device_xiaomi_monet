@@ -9,13 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
 # FOD Animations
-TARGET_HAS_FOD := true
 TARGET_WANTS_FOD_ANIMATIONS := true
 TARGET_FOD_ANIMATIONS := true
 EXTRA_FOD_ANIMATIONS := true
@@ -40,8 +39,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_GAPPS := false
 TARGET_GAPPS_ARCH := arm64
 
-CORVUS_MAINTAINER=TecheN
-PRODUCT_NAME := corvus_monet
+PRODUCT_NAME := nad_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

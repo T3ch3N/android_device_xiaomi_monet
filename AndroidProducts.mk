@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_monet.mk
+    $(LOCAL_DIR)/nad_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_monet-user \
-    corvus_monet-userdebug \
-    corvus_monet-eng
+    nad_monet-user \
+    nad_monet-userdebug \
+    nad_monet-eng
