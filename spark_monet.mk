@@ -15,6 +15,8 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
 WITH_GAPPS := false
+PRODUCT_BOARD_PLATFORM := lito
+PRODUCT_USES_QCOM_HARDWARE := true
 
 PRODUCT_NAME := spark_monet
 PRODUCT_DEVICE := monet
