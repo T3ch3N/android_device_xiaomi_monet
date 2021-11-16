@@ -14,6 +14,8 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+WITH_GAPPS := false
+
 PRODUCT_NAME := spark_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
