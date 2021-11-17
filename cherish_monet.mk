@@ -17,6 +17,15 @@ $(call inherit-product, device/xiaomi/monet/device.mk)
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=TecheN
 
+WITH_GMS := true
+CHERISH_BUILD_VARIANT := Gapps
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_WANTS_FOD_ANIMATIONS := true
+
 PRODUCT_NAME := cherish_monet
 PRODUCT_DEVICE := monet
 PRODUCT_MANUFACTURER := Xiaomi
