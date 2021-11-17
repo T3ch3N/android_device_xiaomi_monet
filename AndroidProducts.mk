@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_monet.mk
+    $(LOCAL_DIR)/cherish_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_monet-user \
-    spark_monet-userdebug \
-    spark_monet-eng
+    cherish_monet-user \
+    cherish_monet-userdebug \
+    cherish_monet-eng
