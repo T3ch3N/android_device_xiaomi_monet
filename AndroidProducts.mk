@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/evolution_monet.mk
+   $(LOCAL_DIR)/spark_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_monet-user \
-    evolution_monet-userdebug \
-    evolution_monet-eng
+    spark_monet-user \
+    spark_monet-userdebug \
+    spark_monet-eng

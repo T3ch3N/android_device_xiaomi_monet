@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+    $(LOCAL_PATH)/overlay-spark
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
